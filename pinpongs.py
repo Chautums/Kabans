@@ -92,3 +92,5 @@ while True:
 
     #Siena un bumba
     if bumba.xcor() > 340 and (bumba.ycor() < siena_b.ycor() + 50)
+
+    bam bam
