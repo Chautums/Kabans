@@ -1,0 +1,38 @@
+-man ir galva. tukša, bet ir
+-Man nav dzīves. Pazūd ar vien vairāk
+-Ahujec nu pizdec es eju lēkt pa lietus lasem uz krieviju.
+-Lai tev laimīgu taciņu, tikai nepiedirs paciņu
+-k
+-ko k, tu ble lohs sesi?
+-Piedod, es ta negribeju, es tikai gribeju... ble a ko es gribeju
+-Tur tas prikols, gribēji būt stulbs bla!
+- ai jau blin nu zaibal mani apcelt. mani mama nemil, kakis nemil, kotlete nemil, zaibal dzive beigta
+-Es tpt ātrak par tevi nosprāgšu. Nameiz!
+-NU jebal, es tak tagad nakti negulesu. man negribas lai kads mirst
+-Da nameiz! Aiziešu tevi apciemot, kā spoks. Plus varēšu redzēt kā tu kakā
+-galvenais nepali ka es nodarbojos ar masturbaciju
+-5EUR
+-2EUR
+-3
+-2.5
+-2.99
+-2.69
+-Deal
+-gud dīl
+-Bet tas ik pēc katras reizes
+-oi bla tak tur katru mēnesi pa 400-600eur
+-paga, cik ta tur daudz tu dročī ble. Tev ir problēma.
+-man parak biezi uzbudina kocini
+-get some help
+-driz jau iesu pie arsta. psihiatrs teica ka tas nav normali. Es tak tikai nolaidu uz vina galda
+-jbl. Tev pēc vakcīnas nav jāiet jau?
+-oi bla
+-cikos tev ir?
+-14:00
+-a ko tu te vēl dari
+-jā.
+*šeit Kaljans pameta klasi*
+
+-Turpinām sarunu?
+-Ne. Gribu saprast iepriekšējo tēmu
+-bla nu tad davai mācāmies

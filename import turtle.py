@@ -1,0 +1,20 @@
+import turtle, random 
+# krasas=("red", "green", "blue", "purple", "orange", "cyan")
+
+Toto= turtle.Turtle()
+Toto.shape("turtle")
+Toto.speed(10)
+# for i in range(0,12) :
+#     Toto.circle(100)
+#     Toto.circle(69, steps=4)
+#     Toto.right(20)
+#     Toto.color(random.choice(krasas))
+Toto.circle(100)
+Toto.penup()
+Toto.forward(100)
+Toto.pendown()
+Toto.circle(75)
+Toto.penup()
+Toto.forward(100)
+Toto.pendown()
+Toto.circle(100)
