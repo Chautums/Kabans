@@ -30,18 +30,25 @@ def btnCommand(command):
 def Equals(): 
     num2=int(e.get())
     result=0
-    if mathOp=="+":    #ja lietotājs nospiež +, tad kalkulators saskaita skaitļus
-        result=num1 + num2
+    # if mathOp=="+":    #ja lietotājs nospiež +, tad kalkulators saskaita skaitļus
+    #     result=num1 + num2
+    # elif mathOp=="-":
+    #     result=num1-num2
+    # elif mathOp=="*":
+    #     result=num1*num2
+    # elif mathOp=="/":
+    #     result=num1/num2
+    if mathOp=="+":
+        result=num2
+        el.insert(0, " Pārtika")
     elif mathOp=="-":
-        result=num1-num2
-    elif mathOp=="*":
-        result=num1*num2
-    elif mathOp=="/":
-        result=num1/num2
+        result=num1+num2
+        el.insert(0, " Sadzīves preces")
     else:
         result=0
     e.delete(0,END)
     e.insert(0,str(result))
+    el.insert(0,str(result))
     return 0
 
 def clear():
@@ -50,6 +57,7 @@ def clear():
     mathOp=""
     return 0
 e=Entry(mansLogs, width=10, font=("Arial Black", 24))  #lodziņš kurā rādās cipari kurus uzraksta
+el=Entry(cheks,width=10, font=("Arial Black", 16)) 
 
 btn0=Button(mansLogs, text="0",padx="40", pady="20",command=lambda:btnClick(0))   #izveidojam pogu
 btn1=Button(mansLogs, text="1",padx="40", pady="20",command=lambda:btnClick(1))
@@ -68,8 +76,8 @@ btn9=Button(mansLogs, text="9",padx="40", pady="20",command=lambda:btnClick(9)) 
 btnEqual=Button(mansLogs, text="=",padx="40", pady="20", bg="#44D807", command=Equals)
 btnClear=Button(mansLogs, text="C",padx="40", pady="20", bg="#FF1C26", command=clear)
 
-btnPartika=Button(mansLogs, text="Pārtika",padx="60", pady="20",command=lambda:btnClick())
-btnSapr=Button(mansLogs, text="Sadz. Preces",padx="40", pady="20",command=lambda:btnClick())
+btnPartika=Button(mansLogs, text="Pārtika",padx="60", pady="20",command=lambda:btnCommand("+"))
+btnSapr=Button(mansLogs, text="Sadz. Preces",padx="40", pady="20",command=lambda:btnCommand("-"))
 btnKim=Button(mansLogs, text="Ķīmija",padx="60", pady="20",command=lambda:btnClick())
 btnZales=Button(mansLogs, text="Zāles",padx="60", pady="20",command=lambda:btnClick())
 
@@ -78,6 +86,7 @@ btnZales=Button(mansLogs, text="Zāles",padx="60", pady="20",command=lambda:btnC
 
 
 e.grid(row=0,column=0, columnspan=4)  #kalkulatora "ekrāniņš"
+el.grid(row=0, column=0,columnspan=4)
 
 btn7.grid(row=3, column=0)  #pogu atrašanās vieta 
 btn8.grid(row=3, column=1)
