@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://icons.iconarchive.com/icons/spoon-graphics/monster/512/Orange-Monster-icon.png">
+    <title>This ir my project</title>
+</head>
+<body>
+
+    <form>
+        <label>Password: <br>
+        <input type="password" placeholder="Your password..." required maxlength="10" minlength="4">
+    </label>
+    <br>
+
+        <label>Name:</label> <br>
+        <input type="name" placeholder="Your name..." required>
+        <br>
+
+        <label>E-mail: <br>
+            <input type="email" placeholder="Your E-mail..." required>
+        </label>
+        <br>
+
+        <label>Number: <br>
+            <input type="number" placeholder="Your Number...">
+        </label>
+        <br>
+
+        <label>Date: <br>
+            <input type="date" placeholder="Date...">
+        </label>
+        <br>
+        
+        <label>Some q: <br>
+            <input type="radio" value="dog" name="animal">
+            <span>I like dogs</span> <br>
+        </label>
+        <label>
+            <input type="radio" value="cat" name="animal">
+            <span>I like cats</span>
+        </label>
+        <br>
+        <br>
+        <label>
+            <input type="checkbox" name="burka" required>
+            <span>I have read terms of conditions!</span>
+        </label>
+        <br>
+        <br>
+        <label>
+            Where are you from? <br>
+            <select>
+                <option value="kurzeme">
+                    Kurzeme
+                </option>
+                <option value="latgale">
+                    Latgale
+                </option>
+                <option value="vidzeme">
+                    Vidzeme
+                </option>
+                <option value="zemgale">
+                    Zemgale
+                </option>
+            </select>
+        </label>
+        <br>
+        <br>
+        <button type="submit">  Submit</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a href="#heading">Go to title</a>
+        <h1 id="heading">Hello Visiem!</h1>
+
+
+
+
+    </form>
+</body>
+</html>  
+
+<script>
+    const form = document.querySelector('form')
+
+    form.addEventListener('submit', (e) => {
+        e.preventDefault()
+
+        alert('Form submitted')
+    })
+
+</script>
