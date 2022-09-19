@@ -1,0 +1,27 @@
+/* .heading {
+    color:cadetblue;
+}
+
+.heading.heading-secondary {
+    color:red;
+}
+
+.heading {
+    color:aqua
+}
+
+.box .heading{
+    color:bisque
+} */
+
+.heading{
+    color: red;
+}
+
+.heading:first-child{
+    color:gold
+}
+
+.heading:last-child{
+    color:green
+}

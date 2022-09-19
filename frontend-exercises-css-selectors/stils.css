@@ -1,0 +1,33 @@
+header h1{
+    color:blue
+}
+
+main h1{
+    color: chartreuse;
+}
+
+footer h1{
+    color: darkblue;
+}
+
+header h2:first-child {
+    color:red
+}
+
+header h2:last-child {
+    color:yellow
+}
+
+header li:nth-child(odd){
+    color:gold
+}
+
+header ol{
+    background-color: burlywood;
+}
+
+input[type="text"] {
+    border-width: 3px;
+    border-color: orange;
+}
+
