@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="heading" id="headingId">Hello World</h1>
+        <div class="container">
+            <h2 class="heading2 heading2-secondary">
+                <span class="heading2-first-letter">
+                    h
+                </span>
+                ello world 2
+            </h2>
+        </div>
+    </div>
+
+    <style>
+        /* Attiecas uz visiem h1 elementiem */
+        h1 {
+            font-size: 30px;
+        }
+
+        /* Attiecas uz visiem elementiem ar klasi .heading */
+        .heading {
+            color: red
+        }
+
+         /* Attiecas uz elementu ar id headingId */
+        #headingId {
+            text-decoration: underline;
+        }
+
+        /* Attiecas uz elementiem ar klase .heading kur ir iekšā elementā ar klasi .wrapper */
+        .wrapper .heading {
+            background-color: gold;
+        }
+
+        /* Attiecas uz elementiem ar klasi .heading2 un .heading2-secondary */
+        .heading2.heading2-secondary {
+            border-bottom: 1px solid red;
+        }
+
+         /* Attiecas gan uz elementa ar klasi .heading, gan  uz elementa ar klasi .heading2 */
+        .heading, .heading2 {
+            padding: 10px;
+        }
+
+        /* 
+         Attiecas uz span elementu, kuram ir klase .heading2-first-letter, 
+         kurš atrodas iekšā elementā ar klasi .heading2 un .heading-secondary, 
+         kas atrodas iekšā .container un .container atrodas iekšā elementā ar klasi .wrapper
+         */
+        .wrapper .container .heading2.heading2-secondary span.heading2-first-letter {
+            margin: 20px;
+        }
+    </style>
+</body>
+</html>

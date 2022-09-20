@@ -1,0 +1,11 @@
+.heading, .heading2{
+    color:red
+}
+
+.heading{
+    font: size 15px; ;
+}
+
+.heading2{
+    font-size: 30px;
+}
