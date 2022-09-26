@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 10px;
+    padding: 30px;
+    border: 3px solid black;
+
+}
+
+.flex__children:nth-child(1) {
+    
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.flex__children:nth-child(2) {
+    background-color: rgba(255, 215, 0, 0.5);
+}
+
+.flex__children:nth-child(3) {
+    order:-1; 
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.flex__children:nth-child(4) {
+    background-color: rgba(0, 128, 0, 0.5);
+}
+
+
+
+
+.flex2{
+    padding: 20px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 600px;
+}
+
+.flex2__children{
+    flex: 0 1 100%; 
+}
+
+.flex2__children:nth-child(1) {
+    
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.flex2__children:nth-child(2) {
+    background-color: rgba(255, 215, 0, 0.5);
+}
+
+.flex2__children:nth-child(3) {
+    order:-1; 
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.flex2__children:nth-child(4) {
+    background-color: rgba(0, 128, 0, 0.5);
+}
+
+
+
+
+.flex3{
+    padding: 20px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 600px;
+}
+
+.flex3__children{
+    flex: 0 1 100%; 
+}
+
+.flex3__children:nth-child(1) {
+    
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.flex3__children:nth-child(2) {
+    background-color: rgba(255, 215, 0, 0.5);
+}
+
+.flex3__children:nth-child(3) {
+    order:-1; 
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.flex3__children:nth-child(4) {
+    background-color: rgba(0, 128, 0, 0.5);
+}
+
+
+
+.flex4{
+    padding: 20px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 600px;
+}
+
+.flex4__children{
+    flex: 0 1 100px; 
+}
+
+.flex4__children:nth-child(1) {
+    
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.flex4__children:nth-child(2) {
+    background-color: rgba(255, 215, 0, 0.5);
+    display: none;
+}
+
+.flex4__children:nth-child(3) {
+    order:-1; 
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.flex4__children:nth-child(4) {
+    background-color: rgba(0, 128, 0, 0.5);
+}

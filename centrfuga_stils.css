@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.parent-element {
+    background-color: bisque;
+    display: flex;
+    gap: 10px;
+}
+
+.parent-element__children {
+    background-color: chocolate;
+    padding: 10px;
+    font-size: 16px;
+    flex:0 0 200px ;
+}
+
