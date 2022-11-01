@@ -1,6 +1,6 @@
 :root{
     --blue-accent: #2f6ee2
-    
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Combo&family=Roboto:wght@400;500;700&display=swap');
@@ -685,7 +685,3 @@ body {
     background-color: transparent;
     color: white;
  }
-
-
-/* Pielāgojam lapu telefoniem */
-
