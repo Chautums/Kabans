@@ -1,19 +1,21 @@
 .car {
-  width: 750px;
+  width: 600px;
   margin: 0 auto;
   border: 1px solid grey;
   padding: 10px;
   border-radius: 10px;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .car__star {
-  font-size: 30px;
+  font-size: 24px;
   padding-left: 10px;
 }
 
 .car__title {
   font-size: 30px;
+  cursor: pointer;
 }
 
 .car__image {
@@ -30,7 +32,7 @@
   color: green;
 }
 
-.car__not-in-stock{
+.car__not-in-stock {
   font-size: 20px;
   color: red;
 }
@@ -42,5 +44,25 @@
 .car__colors {
   display: flex;
   gap: 15px;
+  flex-wrap: wrap;
 }
 
+.car__stock-wrapper {
+  display: flex;
+  gap: 15px;
+}
+
+.car__form {
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+  max-width: 200px;
+}
+
+.car__form-label {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
